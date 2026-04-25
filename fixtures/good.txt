@@ -1,0 +1,1 @@
+Scope: update README only. Acceptance criteria: links work. Constraints: do not touch src. Verification: run markdown link check.

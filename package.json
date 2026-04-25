@@ -1,0 +1,37 @@
+{
+  "name": "agent-task-scope",
+  "version": "0.1.0",
+  "description": "Check task briefs for clear scope, acceptance criteria, constraints, files, and verification.",
+  "type": "module",
+  "bin": {
+    "agent-task-scope": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js --path fixtures/good.txt --min-score 75"
+  },
+  "files": [
+    "src",
+    "fixtures",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "ai-agent",
+    "task-brief",
+    "acceptance-criteria",
+    "developer-tools",
+    "cli"
+  ],
+  "author": "Aolingge",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aolingge/agent-task-scope.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aolingge/agent-task-scope/issues"
+  },
+  "homepage": "https://github.com/aolingge/agent-task-scope"
+}
