@@ -19,7 +19,7 @@ const checks = [
   },
   {
     "id": "verification",
-    "pattern": "verify|test|build|lint|验证|测试",
+    "pattern": "verify|verification|test|build|lint|验证|测试",
     "message": "Defines verification."
   }
 ]
